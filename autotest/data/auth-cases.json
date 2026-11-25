@@ -1,0 +1,7 @@
+[
+  { "id": "AUTH-02", "title": "Пустой email", "identifierType": "email", "errorClass": "Обязательный идентификатор", "email": "empty", "password": "valid", "target": "email", "expected": "Email is required" },
+  { "id": "AUTH-03", "title": "Пустой пароль", "identifierType": "email", "errorClass": "Обязательный пароль", "email": "valid", "password": "empty", "target": "password", "expected": "Password is required" },
+  { "id": "AUTH-04", "title": "Неверный формат email", "identifierType": "email", "errorClass": "Формат идентификатора", "email": "invalid", "password": "valid", "target": "email", "expected": "Email format is invalid" },
+  { "id": "AUTH-05", "title": "Несуществующий аккаунт", "identifierType": "email", "errorClass": "Неизвестный пользователь", "email": "unknown", "password": "valid", "target": "login", "expected": "Invalid email or password" },
+  { "id": "AUTH-06", "title": "Неверный пароль существующего аккаунта", "identifierType": "email", "errorClass": "Ошибочный пароль", "email": "valid", "password": "wrong", "target": "login", "expected": "Invalid email or password" }
+]

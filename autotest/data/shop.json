@@ -1,0 +1,24 @@
+{
+  "product": {
+    "name": "Bolt Cutters",
+    "query": "Bolt Cutters",
+    "category": "Pliers",
+    "unitPrice": 48.41,
+    "quantity": 2,
+    "subtotal": 96.82,
+    "total": 96.82
+  },
+  "customer": {
+    "firstName": "QaStudent",
+    "lastName": "Automation",
+    "dob": "1995-01-01",
+    "phone": "2025550100",
+    "country": "US",
+    "postalCode": "10001",
+    "houseNumber": "1",
+    "street": "Sporer Views",
+    "city": "Gianniburgh",
+    "state": "New Hampshire"
+  },
+  "paymentMethod": "cash-on-delivery"
+}

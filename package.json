@@ -1,0 +1,27 @@
+{
+  "name": "toolshop-ui-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI-автотесты Toolshop по индивидуальному заданию",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node core/run.cjs",
+    "typecheck": "tsc --noEmit",
+    "report": "node core/report.cjs",
+    "report:open": "allure open allure-report",
+    "diagnose": "node core/check-diagnostics.cjs",
+    "report:single": "node core/report.cjs --single"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@types/node": "26.6.6",
+    "allure-commandline": "2.46.1",
+    "allure-js-commons": "3.15.0",
+    "allure-playwright": "3.15.0",
+    "pino": "10.4.0",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
